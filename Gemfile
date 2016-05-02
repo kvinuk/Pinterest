@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.2.3"
+ruby "2.3.0"
 
 gem "rails", "4.2.1"
 gem "delayed_job_active_record"
@@ -8,6 +8,7 @@ gem "jquery-rails"
 gem "pg"
 gem "sass-rails", "~> 5.0"
 gem "coffee-rails", "~> 4.1.0"
+gem "therubyracer"
 gem "uglifier", ">= 1.3.0"
 gem "puma"
 gem "devise"
